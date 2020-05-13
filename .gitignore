@@ -1,0 +1,19 @@
+# Ignorar todo en la raíz excepto el directorio "wp-content". y los archivos indicados abajo (dejamos la base de datos a la vista teniendo en cuenta que el el repositorio que esta creado es privado)
+
+/*
+!.gitignore
+!wp-content/
+!peralte-2020-05-12-02d18cb.sql
+
+# Ignorar todos los temas, excepto los temas que especifique
+wp-content/themes/*
+!wp-content/themes/twentyseventeen/
+!wp-content/themes/neve/
+
+# Ignorar todos los plugins
+
+# Ignorar la cache en el uploads
+wp-content/wpp_cache/*
+
+#ignorar carpetas del tema principal
+
